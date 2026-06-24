@@ -23,6 +23,7 @@ namespace MHXXSaveEditor
         {
             InitializeComponent();
             this.Text = Constants.EDITOR_VERSION; // Changes app title
+            SetupQuickAdd(); // Item Box Quick Add panel (built in code)
         }
 
         public Player player = new Player();
@@ -325,6 +326,7 @@ namespace MHXXSaveEditor
             listViewItem.AutoResizeColumns(ColumnHeaderAutoResizeStyle.ColumnContent);
             listViewItem.AutoResizeColumns(ColumnHeaderAutoResizeStyle.HeaderSize);
             comboBoxItem.Items.AddRange(GameConstants.ItemNameList);
+            EnableQuickAdd(); // turn on the Quick Add panel now a save is loaded
         }
 
         public void LoadEquipmentBox()
