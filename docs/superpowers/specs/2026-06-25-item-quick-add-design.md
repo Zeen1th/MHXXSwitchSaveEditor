@@ -2,7 +2,7 @@
 
 **Date:** 2026-06-25
 **Project:** MHXXSwitchSaveEditor fork (Monster Hunter Generations Ultimate / XX save editor)
-**Author:** basil4server
+**Author:** basilsaadi12
 
 ## Goal
 
@@ -123,6 +123,6 @@ small helper rather than inlining everything in event handlers.
 
 ## Repository / Fork
 
-- Fork `Dawnshifter/MHXXSwitchSaveEditor` into `basil4server` via
-  `gh repo fork --remote`, set the fork as `origin`, keep `upstream` pointing at
-  the original. Work lands on a feature branch and is pushed to the fork.
+- Fork `Dawnshifter/MHXXSwitchSaveEditor` into the `basilsaadi12` GitHub account
+  via `gh repo fork --remote`, set the fork as `origin`, keep `upstream` pointing
+  at the original. Work lands on a feature branch and is pushed to the fork.
